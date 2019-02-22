@@ -34,3 +34,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 -------------KONVERTERA PRINT TILL JSON-----------------
 print(response.result.value)
 --------------------------------------------------------
+
+
+
+-----------MLTESTNING I PLAYGROUND-----------------------
+import CreateMLUI
+
+let builder = MLImageClassifierBuilder()
+builder.showInLiveView()
+--------------------------------------------------------
